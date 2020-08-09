@@ -1,2 +1,2 @@
 # HelixHacks
-Helix Hacks Repo
+Covid Risk Calculator
