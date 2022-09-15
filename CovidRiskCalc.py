@@ -99,7 +99,7 @@ def get_mask_use(fips):
 
 
 def get_pop_data(county1, state1):
-    url = "https://raw.githubusercontent.com/YashRavipati1/HelixHacks/master/Copy%20of%20co-est2019-alldata-2.csv"
+    url = "https://raw.githubusercontent.com/YashRavipati1/Covisk/master/Copy%20of%20co-est2019-alldata-2.csv?token=GHSAT0AAAAAABYB74A26NJJVULXJ2GJN6UUYZCP66Q"
     ftpstream = urllib.request.urlopen(url)
     csvfile = csv.reader(codecs.iterdecode(ftpstream, 'utf-8'))
     if (county1 == "New York City"):
