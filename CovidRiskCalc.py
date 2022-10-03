@@ -79,7 +79,7 @@ def get_yesterday():
 
 
 def get_county_data(day):
-    url = "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv"
+    url = "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties-recent.csv"
     ftpstream = urllib.request.urlopen(url)
     csvfile = csv.reader(codecs.iterdecode(ftpstream, 'utf-8'))
     for line in csvfile:
